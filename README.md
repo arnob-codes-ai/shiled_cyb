@@ -5,7 +5,6 @@
 [![Frontend](https://img.shields.io/badge/Frontend-http%3A%2F%2Flocalhost%3A5173-00b5ff?style=for-the-badge&logo=vite&logoColor=white)](http://localhost:5173/)
 [![Backend API](https://img.shields.io/badge/Backend%20API-http%3A%2F%2F127.0.0.1%3A8000-20e39a?style=for-the-badge&logo=fastapi&logoColor=white)](http://127.0.0.1:8000/)
 [![API Docs](https://img.shields.io/badge/Swagger%20Docs-http%3A%2F%2F127.0.0.1%3A8000%2Fdocs-ffc53d?style=for-the-badge&logo=swagger&logoColor=black)](http://127.0.0.1:8000/docs)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
 ---
 

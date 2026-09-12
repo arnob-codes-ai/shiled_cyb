@@ -22,7 +22,11 @@
 ## 1. Executive Summary & Problem Overview
 Cybercrime complaints involving instant digital fraud (Investment Scams, UPI impersonation, Task Fraud, Mule Networks) exhibit extreme fund dissipation velocity. Fraudulent proceeds are rapidly layered across multiple cascading mule accounts across interstate jurisdictions before being physically liquidated at target ATM clusters within short temporal windows (frequently within 6 hours of the initial transfer).
 
-**CYBER SHIELD** introduces an authorized **Predictive Intelligence Layer** that forecasts **WHERE** and **WHEN** fraudulent proceeds are most likely to be liquidated at physical ATM clusters, providing explainable AI reasoning and proactive decision-support alerts to empower nodal cybercrime units for timely interdiction.
+**CYBER SHIELD** is an **original, ground-up engineered GIS Command & Predictive Intelligence Platform** designed specifically for law enforcement and nodal cybersecurity intelligence units. It provides real-time geospatial threat intelligence, multi-hop money mule network tracking, and probabilistic ATM cash-out interdiction with Explainable AI (XAI).
+
+> [!IMPORTANT]
+> **Authenticity & Original Engineering Statement**: 
+> CYBER SHIELD is an **original, proprietary software system** built from first principles. All architecture components — including the D3-Geo vector engine with Survey of India sovereign boundaries, the multi-hop transaction graph analyzer, the spatio-temporal ML ensemble pipeline, and the real-time WebSocket telemetry engine — represent custom, authentic research and development.
 
 ---
 

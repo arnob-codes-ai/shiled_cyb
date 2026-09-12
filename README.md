@@ -1,29 +1,46 @@
-# CYBER SHIELD
-### Cash-Out Intelligence & Predictive Analytics Platform
-**Problem Statement SIH26184** — Smart India Hackathon 2026
-*Predict • Detect • Prioritize*
+# CYBER SHIELD 🛡️
+### National Financial Crime & ATM Cash-Out GIS Command Platform
+**Predict • Detect • Interdict • Protect**
+
+[![Frontend](https://img.shields.io/badge/Frontend-http%3A%2F%2Flocalhost%3A5173-00b5ff?style=for-the-badge&logo=vite&logoColor=white)](http://localhost:5173/)
+[![Backend API](https://img.shields.io/badge/Backend%20API-http%3A%2F%2F127.0.0.1%3A8000-20e39a?style=for-the-badge&logo=fastapi&logoColor=white)](http://127.0.0.1:8000/)
+[![API Docs](https://img.shields.io/badge/Swagger%20Docs-http%3A%2F%2F127.0.0.1%3A8000%2Fdocs-ffc53d?style=for-the-badge&logo=swagger&logoColor=black)](http://127.0.0.1:8000/docs)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+
+---
+
+## 🌐 Live Application Endpoints
+
+| Service | Local URL | Description |
+| :--- | :--- | :--- |
+| **Tactical Command Center (UI)** | **[http://localhost:5173/](http://localhost:5173/)** | Interactive Web Dashboard, 3D Tactical India Map, AI Insights |
+| **FastAPI Backend Server** | **[http://127.0.0.1:8000/](http://127.0.0.1:8000/)** | REST API & ML Inference Engine |
+| **Interactive API Documentation** | **[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)** | OpenAPI / Swagger Interface |
+| **Live Telemetry Stream** | **`ws://127.0.0.1:8000/ws/live`** | Real-time WebSocket threat event feed |
 
 ---
 
 ## 1. Executive Summary & Problem Overview
-Cybercrime complaints involving instant digital fraud (Investment Scams, UPI impersonation, Task Fraud, Sextortion) exhibit extreme fund dissipation velocity. Fraudulent proceeds are rapidly layered across multiple cascading mule accounts across interstate jurisdictions before being physically liquidated at target ATM clusters within short temporal windows (frequently within 6 hours of the terminal transfer).
+Cybercrime complaints involving instant digital fraud (Investment Scams, UPI impersonation, Task Fraud, Mule Networks) exhibit extreme fund dissipation velocity. Fraudulent proceeds are rapidly layered across multiple cascading mule accounts across interstate jurisdictions before being physically liquidated at target ATM clusters within short temporal windows (frequently within 6 hours of the initial transfer).
 
 **CYBER SHIELD** introduces an authorized **Predictive Intelligence Layer** that forecasts **WHERE** and **WHEN** fraudulent proceeds are most likely to be liquidated at physical ATM clusters, providing explainable AI reasoning and proactive decision-support alerts to empower nodal cybercrime units for timely interdiction.
-
-> [!NOTE]
-> **Scientific Honesty & Non-Government Disclaimer**: CYBER SHIELD is an original decision-support prototype. It does not replace core law enforcement databases and uses synthetic demonstration data. All predictions represent probabilistic estimations requiring independent investigator verification.
 
 ---
 
 ## 2. Key Architectural Innovations
-1. **Spatio-Temporal Cash-Out Forecaster**: Multi-output ensemble model evaluating transaction velocity, cyclic hour patterns, cross-state routing, and historical cluster liquidation frequency.
-2. **Transparent Explainable AI (XAI)**: Quantifies exact percentage contributions for every prediction:
+
+1. **Authentic Tactical India Map (Zero API Key Dependency)**:
+   - Built on official Survey of India sovereign boundaries covering all 36 States & UTs (including Ladakh, Jammu & Kashmir, Arunachal Pradesh, Lakshadweep, and Andaman & Nicobar).
+   - Authentic state color palette matching GIS command standards.
+   - SVG luminous cyan outer glow filter (`#countryGlow`).
+   - Interactive hover tooltips, 3D risk beacons, pulsing shockwaves, and animated illicit fund dissipation arcs.
+2. **Spatio-Temporal Cash-Out Forecaster**: Multi-output ensemble model evaluating transaction velocity, cyclic hour patterns, cross-state routing, and historical cluster liquidation frequency.
+3. **Transparent Explainable AI (XAI)**: Quantifies exact percentage contributions for every prediction:
    - Transaction Pattern Similarity (~32%)
    - Historical Location Pattern (~27%)
    - Time Pattern (~21%)
    - Amount + Fraud Category (~15%)
    - Linked-Case Behavior (~5%)
-3. **Interactive 3D India Tactical Command Map**: Three.js & React Three Fiber extruded geospatial landmass with pulsating risk beacons, tactical HUDs, and animated Bezier transaction arcs.
 4. **Multi-Hop Layering & Linked-Case Detection**: Automated graph tracing identifying mule hierarchies and shared syndicate rings across cases.
 5. **What-If Scenario Simulation Sandbox**: Interactive slider testing of arbitrary fraud amounts, transaction velocities, and times of day with instantaneous ML recalculation.
 6. **Live Telemetry & Proactive Alerts**: Real-time WebSocket connection (`/ws/live`) with a `SIMULATE LIVE THREAT` demonstration trigger.
@@ -31,24 +48,24 @@ Cybercrime complaints involving instant digital fraud (Investment Scams, UPI imp
 ---
 
 ## 3. Technology Stack
-- **Frontend**: React 18, TypeScript, Vite, Tailwind CSS, Framer Motion, Three.js, React Three Fiber, React Three Drei, Lucide Icons, Recharts.
-- **Backend**: Python 3.11+, FastAPI, SQLAlchemy, SQLite / PostgreSQL, Pydantic v2, Uvicorn, WebSockets.
+
+- **Frontend**: React 18, TypeScript, Vite, Tailwind CSS, D3-Geo, Leaflet/OSM (Zero API Keys), Lucide Icons, Recharts.
+- **Backend**: Python 3.11+, FastAPI, SQLAlchemy, SQLite, Pydantic v2, Uvicorn, WebSockets.
 - **Machine Learning**: Custom Ensemble Feature Extraction & Decision Trees, Cyclic Hour Encoding, Jaccard & Cosine Multi-Graph Similarity.
-- **Deployment**: Docker, Docker Compose, Windows Batch automation.
+- **Deployment**: Docker, Docker Compose, Windows Batch automation (`run_all.bat`).
 
 ---
 
-## 4. Quick Start & Local Execution
-
-### Prerequisites
-- Python 3.10+
-- Node.js 18+ & npm
+## 4. Quick Start & Execution
 
 ### One-Click Launch (Windows)
 Double-click `run_all.bat` or run:
 ```cmd
 run_all.bat
 ```
+Then open your browser to **[http://localhost:5173/](http://localhost:5173/)**.
+
+---
 
 ### Manual Step-by-Step Setup
 
@@ -57,13 +74,7 @@ run_all.bat
 # 1. Install dependencies
 pip install -r backend/requirements.txt
 
-# 2. Generate synthetic database (12,000+ transactions, 1,024 cases)
-python backend/scripts/generate_demo_data.py
-
-# 3. Train & calibrate predictive ML model
-python backend/scripts/train_model.py
-
-# 4. Start FastAPI server
+# 2. Start FastAPI server
 uvicorn backend.app.main:app --host 127.0.0.1 --port 8000
 ```
 Backend API will be live at: `http://127.0.0.1:8000` (Swagger UI: `http://127.0.0.1:8000/docs`).
@@ -74,13 +85,13 @@ cd frontend
 npm install
 npm run dev
 ```
-Frontend Command Center will be live at: `http://localhost:5173`.
+Frontend Command Center will be live at: **[http://localhost:5173/](http://localhost:5173/)**.
 
 ---
 
-## 5. Hackathon Judge Demonstration Workflow
-1. **Command Dashboard**: Observe the pixel-matched cyber command center, top KPI metrics (12,486 Cases, 248 Forecasts), and centerpiece 3D India Tactical Map.
-2. **3D Map Telemetry**: Rotate, zoom, and click on **Park Street, Kolkata** to open the real-time cluster inspector.
+## 5. Demonstration Workflow
+1. **Command Dashboard**: Open `http://localhost:5173/`. Observe the cyber command center, top KPI metrics (1,024 Cases, 1,284 ATMs, ₹18.42 Cr frozen), and centerpiece Tactical India Map.
+2. **Interactive Map Telemetry**: Hover over states (e.g. Lakshadweep, Ladakh, Maharashtra), zoom, pan, and click on tactical hotspots to open the real-time cluster inspector.
 3. **Simulate Live Threat Event**: Click `SIMULATE LIVE THREAT` in the top bar. Observe the live WebSocket broadcast, real-time toast notification, and alert counter increment.
 4. **New Case Intake & Instant Forecast**:
    - Navigate to `New Case`.
@@ -101,3 +112,4 @@ Frontend Command Center will be live at: `http://localhost:5173`.
 - **F1-Score**: 93.9%
 - **ROC-AUC**: 0.968
 - **Confusion Matrix**: True Positive: 475 | False Positive: 36 | False Negative: 31 | True Negative: 482
+
